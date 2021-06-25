@@ -42,15 +42,14 @@ let questions = [
         choice3: "Do open math.lenth",
         choice4: "Document Object Model",
         answer: 4,    
-    },
-
+    }
 ]
 
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 4
 
-starGame = () => {
-    questionsCounter = 0
+startGame = () => {
+    questionCounter = 0
     score = 0
     availableQuestions = [...questions]
     getNewQuestion()
@@ -84,6 +83,8 @@ getNewQuestion = () => {
     acceptingAnswers = true
 }
 
+
+
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return
@@ -92,7 +93,7 @@ choices.forEach(choice => {
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
     
-        let classToApply = selectedAnswer == currentQuestion.answer ? 'corrent' : 
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 
         'incorrect'
 
         if(classToApply === 'correct') {
