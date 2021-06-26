@@ -67,8 +67,9 @@ h2 {
     text-justify: auto;    
     margin-bottom: 1rem;
     text-decoration: none;
-    color: rgb(8, 216, 243);
-    background: linear-gradient(90deg,rgba(57, 165, 8, 0.596) 0%, rgb(12, 233, 49) 100%);
+    color: rgb(243, 0, 231);
+    background: black;
+    box-shadow: floralwhite;
     border-radius: 1rem 5rem 3rem 1rem;
 }
 
