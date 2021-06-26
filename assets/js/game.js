@@ -4,11 +4,33 @@ const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
 
+
 let currentQuestion = {}
 let acceptingAnswers = true
 let score = 0
 let questionCounter = 0
 let availableQuestions = []
+
+
+
+
+
+//Setup Timer
+
+var time=15;
+var x=setInterval(function() {
+    document.getElementById("timer-count").innerHTML="" + time ;
+    time = time-1;
+
+    if(time <0){
+        clearInterval(x);
+        return window.location.assign('./end.html');
+    }
+},1000);
+
+
+
+
 
 let questions = [
     {
@@ -47,6 +69,9 @@ let questions = [
 
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 5
+
+
+
 
 startGame = () => {
     questionCounter = 0
@@ -114,5 +139,6 @@ incrementScore = num => {
     score +=num
     scoreText.innerText = score
 }
+
 
 startGame()
