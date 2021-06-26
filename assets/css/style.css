@@ -102,7 +102,7 @@ h2 {
     margin-left: 1rem;
 }
 
-/* Final Page CSS */
+/* End Page CSS */
 .end-form-container {
     width:100%;
     display:flex;
@@ -114,6 +114,7 @@ h2 {
 
 input{
     margin-bottom: 1rem;
+    background-color: rgb(179, 123, 4);
     width: 20rem;
     padding:1.5rem;
     font-size: 1.8rem;
@@ -122,7 +123,7 @@ input{
 }
 
 input::placeholder {
-    color: #aaa;
+    color: rgb(46, 4, 15);
 }
 #username {
     margin-bottom: 3rem;
@@ -146,9 +147,3 @@ input::placeholder {
     color:rbg(28,26,26);
 }
 
-
-/*Timer CSS*/
-
-.h3 {
-    color:rosybrown;
-}
