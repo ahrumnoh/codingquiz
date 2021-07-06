@@ -8,7 +8,19 @@ These 10 files are made up with
 - JavaScript (1.game.js/ 2.end.js /3.highscores.js) in order.
 
 
-# Criteria of the Quiz #
+
+# Caution
+- Timer is located at the bottom of the page, please check entire page
+- This quiz is intended to compete with users, only 'highscores' are able to put into their name at the Ending page
+(you score must beat previous highscore users)
+- If you have a right answer, the color of answer sentence turns to be reddish-pink color, if your answer is wrong,
+it turns to be black.
+
+
+
+
+
+# Criteria of the Quiz 
 
 -Start Button
 -Limited Timer '15seconds' to End up the Game
