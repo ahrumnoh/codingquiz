@@ -17,7 +17,8 @@ saveHighScore = e => {
     e.preventDefault()
 
     const score = {
-        score:mostRecentScore,
+        //score:mostRecentScore,
+        score:mostRecentScore || 0,
         name: username.value
     }
 
@@ -32,3 +33,5 @@ saveHighScore = e => {
     localStorage.setItem('highScores', JSON.stringify(highScores))
     window.location.assign("./highscores.html")
 }
+
+
