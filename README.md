@@ -24,12 +24,12 @@ These 10 files are made up with
 
 # Criteria of the Quiz 
 
--Start Button
--Limited Timer '15seconds' to End up the Game
--Several multiple questions
--Save Score
--Competed with other's Scores
--The end page, linking with 'Go home', 'HighScore' pages
--Every page is connected with each page in order
+* Start Button
+* Limited Timer '15seconds' to End up the Game
+* Several multiple questions
+* Save Score
+* Competed with other's Scores
+* The end page, linking with 'Go home', 'HighScore' pages
+* Every page is connected with each page in order
 
 
