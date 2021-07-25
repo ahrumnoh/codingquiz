@@ -1,6 +1,7 @@
+![image!](https://github.com/ahrumnoh/codingquiz/blob/main/assets/image/'15sec'%20fun%20coding%20quiz.jpg?raw=true)
+
 # Coding Quiz
 
-There are total 10 files that I made.
 
 These 10 files are made up with 
 - HTML (1.index.html/ 2.game.html/ 3. end.html/ 4.highscores.html) in order
